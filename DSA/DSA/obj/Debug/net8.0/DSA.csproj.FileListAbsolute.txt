@@ -1,0 +1,14 @@
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\bin\Debug\net8.0\DSA.exe
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\bin\Debug\net8.0\DSA.deps.json
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\bin\Debug\net8.0\DSA.runtimeconfig.json
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\bin\Debug\net8.0\DSA.dll
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\bin\Debug\net8.0\DSA.pdb
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\DSA.AssemblyInfoInputs.cache
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\DSA.AssemblyInfo.cs
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\DSA.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\DSA.dll
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\refint\DSA.dll
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\DSA.pdb
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\DSA.genruntimeconfig.cache
+D:\OneDrive\Documents\GitHub\data-structures-and-algorithms-in-c-sharp\DSA\DSA\obj\Debug\net8.0\ref\DSA.dll
