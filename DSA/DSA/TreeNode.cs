@@ -10,6 +10,7 @@ namespace DSA
     {
         IComparable Key = key;
         T Data = data;
+        public int Frequency;
 
         public TreeNode<T> parent;
         public TreeNode<T> left;

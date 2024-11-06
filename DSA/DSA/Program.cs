@@ -10,3 +10,4 @@ var two = hashTable.Get(2);
 Console.WriteLine(two);
 var three = hashTable.Get(3);
 Console.WriteLine(three ?? "3 is null");
+

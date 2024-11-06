@@ -1,6 +1,6 @@
 ﻿namespace DSA
 {
-    internal class ArrayList<T>
+    public class ArrayList<T>
     {
         private T[] _items = new T[1];
         private int _size = 0;
@@ -71,8 +71,13 @@
 
         public void Clear()
         {
-            _items = [1];
+            _items = [default];
             _size = 0;
+        }
+
+        public bool Contians(T item)
+        {
+            return _items.Contains(item);
         }
     }
 }

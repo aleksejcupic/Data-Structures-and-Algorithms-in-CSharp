@@ -16,17 +16,17 @@ namespace DSA
             Nodes = new TreeNode<T>[256];
             for (int i = 0; i < text.Length; i++)
             {
-                int code = text.CharAt(i);
+                int code = text[i];
                 if (Nodes[code] == null)
                     Nodes[code] = new TreeNode<T>(code);
 
-                Nodes[code].frequency++;
+                Nodes[code].Frequency++;
             }
         }
 
-        public void BuildTree()
+        public void BuildTree<T>()
         {
-            Heap heap = new DSA.Heap();
+            Heap<TreeNode<T>> heap = new();
 
             for (int i = 0; i < 256; i++)
             {
@@ -40,10 +40,12 @@ namespace DSA
                 TreeNode left = (TreeNode)heap.ExtractMax();
                 TreeNode right = (TreeNode)heap.ExtractMax();
 
-                Root = new TreeNode<T>(0);
-                Root.left = left;
-                Root.right = right;
-                Root.frequency = left.frequency + right.frequency;
+                Root = new TreeNode<T>(0)
+                {
+                    left = left,
+                    right = right,
+                    frequency = left.frequency + right.frequency
+                };
 
                 heap.Insert(Root);
             }

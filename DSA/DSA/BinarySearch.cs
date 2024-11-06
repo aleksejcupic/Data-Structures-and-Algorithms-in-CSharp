@@ -12,10 +12,11 @@ namespace DSA
         {
             int left = 0;
             int right = v.Length - 1;
+            int median;
 
             while (left <= right)
             {
-                int median = (left + right) / 2;
+                median = (left + right) / 2;
                 T item = v[median];
 
                 var comparison = x.CompareTo(item);
@@ -27,6 +28,19 @@ namespace DSA
                     left = median + 1;
             }
             return -1;
+        }
+
+        static int SearchRecursive(T[] v, T x, int low, int high)
+        {
+            if (low > high) return -1;
+
+            int median = (low + high) / 2;
+            if (v[median].CompareTo(x) < 0)
+                return SearchRecursive(v, x, median + 1, high);
+            else if (v[median].CompareTo(x) > 0)
+                return SearchRecursive(v, x, low, median - 1);
+            else
+                return median;
         }
     }
 }

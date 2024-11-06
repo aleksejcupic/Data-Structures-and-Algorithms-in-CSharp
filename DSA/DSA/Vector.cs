@@ -56,12 +56,11 @@ namespace DSA
             for (int i = index + 1; i < length; i++)
                 items[i - 1] = items[i];
 
-            items[length - 1] = null;
-
+            items[length - 1] = default;
             length--;
         }
 
-        public T Get(int index) => index >= 0 && index < length ? items[index] : null;
+        public T? Get(int index) => index >= 0 && index < length ? items[index] : default;
 
         public int GetLength() => length;
 
